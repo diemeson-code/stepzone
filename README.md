@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 👟 StepZone — Loja Virtual de Calçados
 
-First, run the development server:
+A **StepZone** é uma loja virtual de calçados desenvolvida como projeto de portfólio, com o objetivo de praticar e aprimorar habilidades em desenvolvimento web utilizando tecnologias modernas do ecossistema React.
+
+🌐 **Acesse o projeto online:** [StepZone](https://stepzone-iota.vercel.app/)
+
+## 📸 Sobre o Projeto
+
+O projeto apresenta uma experiência de navegação para uma loja virtual de calçados, com páginas dedicadas aos produtos, ao carrinho de compras e ao checkout.
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js** — framework React para aplicações web.
+- **React** — construção de interfaces por componentes.
+- **TypeScript** — tipagem estática para JavaScript.
+- **Tailwind CSS** — estilização da interface.
+- **Git e GitHub** — versionamento e hospedagem do código.
+- **Vercel** — publicação da aplicação.
+
+## ✨ Funcionalidades
+
+- Página inicial da loja.
+- Exibição e navegação de produtos.
+- Página individual de produto.
+- Carrinho de compras.
+- Página de checkout.
+- Página de confirmação de compra.
+- Navegação entre páginas da aplicação.
+
+## 💻 Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js instalado.
+- npm instalado.
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/diemeson-code/stepzone.git
+```
+
+### 2. Entre na pasta do projeto
+
+```bash
+cd stepzone
+```
+
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Execute o projeto
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Acesse no navegador
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Build de Produção
 
-## Learn More
+Para verificar a compilação do projeto:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌍 Deploy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A aplicação está publicada na Vercel:
 
-## Deploy on Vercel
+https://stepzone-iota.vercel.app/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Autor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Diemeson dos Santos**
+
+GitHub: [@diemeson-code](https://github.com/diemeson-code)
+
+---
+
+Projeto desenvolvido para aprendizado prático e construção de portfólio em desenvolvimento web.
